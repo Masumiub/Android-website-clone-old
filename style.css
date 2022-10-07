@@ -1,0 +1,246 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Cairo', sans-serif;
+
+    font-family: 'Comfortaa', cursive;
+
+    font-family: 'Oxygen', sans-serif;
+}
+body{
+	font-family: sans-serif;
+}
+
+
+#banner{
+	/*background: #90ee90;*/
+	background: url(banner.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+.logo{
+	width: 150px;
+	position: absolute;
+	top: 4%;
+	left: 6%;
+}
+
+.banner-text{
+	text-align: center;
+	color: #fff;
+	padding-top: 200px;
+
+}
+.banner-text h1{
+	padding: 20px;
+	font-size: 110px;
+	line-height: 100px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.banner-text p{
+
+	font-size: 20px;
+	line-height: 35px;
+}
+
+.banner-btn{
+	margin: 30px auto 0;
+}
+
+.banner-btn a{
+	width: 190px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 0;
+	color: #fff;
+	border: 2px solid #fff;
+	border-radius: 50px;
+}
+.banner-btn a:hover{
+	color: #000000;
+	background-color: #fff;
+}
+#sideNav{
+	width: 200px;
+	height: 100vh;
+	position: fixed;
+	right: -200px;
+	top: 0;
+	background: #fff;
+	z-index: 2;
+	transition: .5s;
+}
+nav ul li{
+	list-style: none;
+	margin: 70px 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #000000;
+}
+
+#menuBtn{
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	text-align: center;
+	position: fixed;
+	right: 30px;
+	top: 20px;
+	border-radius: 3px;
+	z-index: 3;
+	cursor: pointer;
+}
+
+#menuBtn img{
+	width: 20px;
+	margin-top:15px ;
+}
+
+@media screen and(max-width:770px){
+	.banner-text h1{
+		font-size:44px;
+	}
+	.banner-btn a{
+		display:block;
+		margin:20px auto;
+	}
+}
+
+
+/*feature*/
+#feature{
+	width: 100%;
+	padding: 70px 0;
+	/*background: #efefef;*/
+}
+
+.title-text{
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.title-text h2{
+
+	font-size: 80px;
+}
+
+.feature-box{
+	width: 85%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.features{
+	flex-basis: 48%;
+	margin-bottom:50px ;
+}
+
+.features-img{
+
+	flex-basis: 48%;
+	margin: auto;
+
+}
+
+.features-img img{
+	width: 100%;
+	border-radius: 10px;
+}
+
+
+.features h2{
+
+	font-size: 50px;
+	padding-top: 30px ;
+}
+.features p{
+	padding-top: 30px ;
+	line-height: 40px;
+}
+
+.features a{
+	color: #fff;
+	text-decoration: none;
+	
+}
+
+.fbtn{
+	width: 150px;
+	padding: 7px;
+	text-align: center;
+	background: #000000;
+	margin-top: 30px ;
+	border-radius: 30px;
+}
+
+
+#short_banner{
+
+	background: url(banner.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+}
+
+.short_banner-text{
+	text-align: center;
+	color: #fff;
+	padding-top: 180px;
+}
+
+.short_banner-text h3{
+	font-size: 50px;
+}
+
+.short_banner-text p{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+
+
+
+.col_white_amrc { color:#FFF;}
+footer { width:100%; background-color:#263238; min-height:500px; padding:50px 0px 50px 0px ;}
+.pt2 { padding-top:40px ; margin-bottom:40px ;}
+footer p { font-size:13px; color:#CCC; padding-bottom:0px; margin-bottom:15px;}
+.mb10 { padding-bottom:30px ;}
+.footer_ul_amrc { margin:0px ; list-style-type:none ; font-size:14px; padding:0px 0px 10px 0px ; }
+.footer_ul_amrc li {padding:0px 0px 5px 0px;}
+.footer_ul_amrc li a{ color:#CCC;}
+.footer_ul_amrc li a:hover{ color:#fff; text-decoration:none;}
+.fleft { float:left;}
+.padding-right { padding-right:10px; }
+
+.footer_ul2_amrc {margin:0px; list-style-type:none; padding:0px;}
+.footer_ul2_amrc li p { display:table; }
+.footer_ul2_amrc li a:hover { text-decoration:none;}
+.footer_ul2_amrc li i { margin-top:5px;}
+
+.bottom_border { border-bottom:1px solid #323f45; padding-bottom:30px;}
+.foote_bottom_ul_amrc {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+}
+.foote_bottom_ul_amrc li { display:inline;}
+.foote_bottom_ul_amrc li a { color:#999; margin:0 12px;}
+
+.social_footer_ul { display:table; margin:15px auto 0 auto; list-style-type:none;  }
+.social_footer_ul li { padding-left:20px; padding-top:10px; float:left; }
+.social_footer_ul li a { color:#CCC; border:1px solid #CCC; padding:8px;border-radius:50%;}
+.social_footer_ul li i {  width:20px; height:20px; text-align:center;}
